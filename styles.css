@@ -135,8 +135,26 @@ h2 {
     border: none;
     font-weight: bold;
 }
-
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
 }
+
+
+.menu-acessibilidade {
+ position: fixed;
+ top: 2rem;
+ right: 20px;
+ z-index: 1000;
+ }
+
+.rotacao-botao {
+ transform: rotate(-90deg);
+ transform-origin: right center;
+ }
+
+156 .opcoes-acessibilidade {
+157 margin-top: 10px;
+158 display: flex;
+159 flex-direction: column;
+160 }     Paramos aqui item 19
