@@ -3,6 +3,9 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ff7000;
 }
 
 body {
@@ -153,8 +156,44 @@ h2 {
  transform-origin: right center;
  }
 
-156 .opcoes-acessibilidade {
-157 margin-top: 10px;
-158 display: flex;
-159 flex-direction: column;
-160 }     Paramos aqui item 19
+.opcoes-acessibilidade {
+ margin-top: 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+ .opcoes-acessibilidade button {
+ margin-bottom: 5px;
+ }
+
+.apresenta-lista {
+    display: none;
+}
+
+
+.alto-contraste {
+ background-color: var(--alto-contraste-fundo);
+ color: var(--alto-contraste-texto);
+ }
+ .alto-contraste header,
+ .alto-contraste footer,
+ .alto-contraste .formulario {
+ background-color: var(--alto-contraste-fundo);
+ color: var(--alto-contraste-texto);
+ }
+
+ .alto-contraste .nav-link {
+ color: var(--alto-contraste-link);
+ }
+
+ .alto-contraste #tropicalia {
+ background: none;
+ }
+
+ .alto-contraste #galeria {background-color: var(--alto-
+                                                 contraste-fundo);
+ }
+ .alto-contraste .fundo-galeria {
+ background: none;
+ }
+   
